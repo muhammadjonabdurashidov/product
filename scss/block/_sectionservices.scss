@@ -1,0 +1,265 @@
+.services__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 169px;
+}
+
+.services__wrapper :nth-child( 6 ) {
+ margin: 0;
+}
+
+.services__wrapper-one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 169px;
+}
+
+.wrapper__text {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #22343D;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.wrapper__text-one {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #22343D;
+  margin: 0;
+  margin-bottom: 131px;
+}
+
+.wrapper__text-two {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343D;
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.wrapper__text-three {
+  width: 486px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343D;
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.box__text {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #22343D;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.box__text-one {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #22343D;
+  margin: 0;
+  margin-bottom: 23px;
+}
+
+.wrapper__text-two {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343D;
+  margin: 0;
+  margin-bottom: 30px;
+  width: 486px;
+}
+
+.box__text-three {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343D;
+  margin: 0;
+  margin-bottom: 30px;
+  width: 365px;
+}
+
+
+.box__text-four {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343D;
+  margin: 0;
+  margin-bottom: 30px;
+  width: 365px;
+}
+
+.box__text-five {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343D;
+  margin: 0;
+  width: 365px;
+}
+
+.services__img-one {
+  margin-right: 90px;
+}
+
+
+@media only screen and (max-width: 1140px) {
+  
+  .section__services-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .services__wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .services__wrapper-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 169px;
+  }
+
+  .services__img-one {
+    margin: 0;
+    margin-bottom: 50px;
+  }
+
+  .services__img {
+    margin-bottom: 50px;
+  }
+}
+
+
+
+@media only screen and (max-width: 550px) {
+  
+  .section__services-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .services__wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .services__wrapper-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 169px;
+  }
+
+  .services__img-one {
+    margin: 0;
+    margin-bottom: 50px;
+    width: 350px;
+    height: 319px;
+  }
+
+  .services__img {
+    margin-bottom: 50px;
+    width: 350px;
+    height: 319px;
+  }
+
+  .wrapper__text {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #22343D;
+  }
+
+  .wrapper__text-one {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #22343D;
+    margin: 0;
+    margin-bottom: 16px;
+  }
+
+  .wrapper__text-three {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343D;
+    width: 327px;
+  }
+
+  .box__text-one {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #22343D;
+  }
+
+  .wrapper__text-two {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343D;
+    width: 356px;
+  }
+
+  .box__text-three {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343D;
+    width: 287px;
+  }
+
+  .box__text-four {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343D;
+    width: 287px;
+  }
+
+  .box__text-five {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343D;
+    width: 287px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+
+  .services__img {
+    width: 250px;
+    height: 219px;
+  }
+
+  .services__img-one {
+    width: 250px;
+    height: 219px;
+  }
+
+  .services__wrapper {
+    margin-left: 50px;
+  }
+}

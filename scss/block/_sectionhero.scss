@@ -1,0 +1,137 @@
+.hero__box {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.hero__title {
+  @include fonts (700,40px,60px);
+  width: 400px;
+  color: #22343d;
+  margin: 0;
+  margin-bottom: 18px;
+}
+
+.hero__wrapper-text {
+  @include fonts (400,18px,28px);
+  width: 458px;
+  margin: 0;
+  margin-bottom: 45px;
+}
+
+.hero__wrapper-link {
+  @include fonts (700,16px,24px);
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 41px;
+  background-color: #02897a;
+  border-radius: 4px;
+}
+
+.hero__wrapper-link:hover {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.wrapper__link {
+  @include fonts (600,16px,24px);
+  text-decoration-line: underline;
+  color: #02897a;
+  margin-left: 30px;
+}
+
+.wrapper__link::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-image: url(../../img/icon.png);
+  background-repeat: no-repeat;
+}
+
+.hero__box-img {
+  margin-left: 33px;
+}
+
+@media only screen and (max-width: 1115px){
+
+  .hero__box {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .hero__title {
+    text-align: center;
+  }
+
+  .hero__wrapper-text {
+    text-align: center;
+  }
+
+  .hero__box-img {
+    margin: 0;
+  }
+  
+}
+
+@media only screen and (max-width: 630px){
+
+  .hero__box {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .hero__title {
+    @include fonts (700,36px, 60px);
+    width: 369px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero__wrapper-text {
+    @include fonts (400,18px, 28px);
+    text-align: center;
+    width: 326px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero__box-img {
+    margin: 0;
+    width: 338px;
+    height: 310px;
+  }
+  
+}
+
+@media only screen and (max-width: 400px) {
+
+   .hero__title {
+    width: 310px;
+   }
+   
+  .hero__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero__wrapper-link {
+    margin-bottom: 20px;
+  }
+
+  .wrapper__link {
+    margin: 0;
+  }
+
+  .hero__box-img {
+    width: 300px;
+    height: 290px;
+  }
+}
